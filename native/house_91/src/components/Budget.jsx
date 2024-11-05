@@ -31,7 +31,7 @@ const Budget = () => {
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
-        style={{marginTop: 20}}>
+        style={{marginTop: 10}}>
         <View
           style={{
             flexDirection: 'row',

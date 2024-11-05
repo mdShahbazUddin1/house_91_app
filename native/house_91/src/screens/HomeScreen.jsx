@@ -20,6 +20,11 @@ import Zero from 'react-native-vector-icons/MaterialIcons';
 import Pg from 'react-native-vector-icons/Entypo';
 import InsightsUtility from '../components/InsightsUtility';
 import Budget from '../components/Budget';
+import FeaturedCollection from '../components/FeaturedCollection';
+import LegalServices from '../components/LegalServices';
+import OurServices from '../components/OurServices';
+import ExploreCity from '../components/ExploreCity';
+import HandPicked from '../components/HandPicked';
 const HomeImage = require('../../assets/house-image.png');
 const HomeKey = require('../../assets/hand-key.png');
 
@@ -194,6 +199,21 @@ const HomeScreen = () => {
         </View>
         <View style={{marginTop: 10}}>
           <Budget />
+        </View>
+        <View style={{marginTop: 0}}>
+          <FeaturedCollection />
+        </View>
+        <View style={{marginTop: 0}}>
+          <LegalServices />
+        </View>
+        <View style={{marginTop: 0}}>
+          <OurServices />
+        </View>
+        <View style={{marginTop: 0}}>
+          <ExploreCity />
+        </View>
+        <View style={{marginTop: 0}}>
+          <HandPicked />
         </View>
       </ScrollView>
     </SafeAreaView>
