@@ -8,7 +8,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const OurServices = () => {
   return (
-    <View style={{flex: 1, paddingHorizontal: 15, paddingVertical: 20}}>
+    <View style={{flex: 1, paddingHorizontal: 15, paddingVertical: 15}}>
       <View
         style={{
           flexDirection: 'row',
@@ -22,7 +22,7 @@ const OurServices = () => {
             justifyContent: 'space-between',
           }}>
           <FontAwesome6 name="user-tie" size={20} color="green" />
-          <View style={{marginLeft: 5, marginTop: -5}}>
+          <View style={{marginLeft: 7, marginTop: -3}}>
             <Text style={{fontSize: 15, fontWeight: 500}}>
               Our Services for Owners
             </Text>

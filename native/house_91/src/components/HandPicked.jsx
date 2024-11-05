@@ -3,10 +3,11 @@ import React from 'react';
 import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const HandPicked = () => {
   return (
-    <View style={{flex: 1, paddingHorizontal: 15, paddingVertical: 20}}>
+    <View style={{flex: 1, paddingHorizontal: 13, paddingVertical: 15}}>
       <View
         style={{
           flexDirection: 'row',
@@ -21,10 +22,10 @@ const HandPicked = () => {
           }}>
           <MaterialCommunityIcons
             name="office-building"
-            size={20}
+            size={28}
             color="green"
           />
-          <View style={{marginLeft: 5, marginTop: -5}}>
+          <View style={{marginLeft: 2, marginTop: -2}}>
             <Text style={{fontSize: 15, fontWeight: '500'}}>
               Hand Picked Commercial Projects
             </Text>
@@ -78,6 +79,51 @@ const HandPicked = () => {
               />
             </View>
             {/* Overlay component */}
+            <View
+              style={{
+                width: '100%',
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                position: 'absolute',
+                top: 10,
+                // borderColor: 'red',
+                // borderWidth: 2,
+                zIndex: 999,
+              }}>
+              <View
+                style={{
+                  backgroundColor: '#46019F',
+                  width: 60,
+                  paddingVertical: 2,
+                  borderTopRightRadius: 5,
+                  borderBottomRightRadius: 5,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: 10,
+                    fontWeight: 600,
+                    paddingLeft: 2,
+                  }}>
+                  Featured
+                </Text>
+              </View>
+              <View
+                style={{
+                  marginRight: 8,
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  backgroundColor: '#7F7E7E80',
+                  width: 35,
+                  height: 35,
+                  borderRadius: 50,
+                  paddingHorizontal: 2,
+                }}>
+                <AntDesign name="heart" size={20} color="white" />
+              </View>
+            </View>
             <View
               style={{
                 width: '90%',
@@ -219,6 +265,51 @@ const HandPicked = () => {
             {/* Overlay component */}
             <View
               style={{
+                width: '100%',
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                position: 'absolute',
+                top: 10,
+                // borderColor: 'red',
+                // borderWidth: 2,
+                zIndex: 999,
+              }}>
+              <View
+                style={{
+                  backgroundColor: '#46019F',
+                  width: 60,
+                  paddingVertical: 2,
+                  borderTopRightRadius: 5,
+                  borderBottomRightRadius: 5,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: 10,
+                    fontWeight: 600,
+                    paddingLeft: 2,
+                  }}>
+                  Featured
+                </Text>
+              </View>
+              <View
+                style={{
+                  marginRight: 8,
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  backgroundColor: '#7F7E7E80',
+                  width: 35,
+                  height: 35,
+                  borderRadius: 50,
+                  paddingHorizontal: 2,
+                }}>
+                <AntDesign name="heart" size={20} color="white" />
+              </View>
+            </View>
+            <View
+              style={{
                 width: '90%',
                 position: 'absolute',
                 bottom: 15,
@@ -355,7 +446,53 @@ const HandPicked = () => {
                 resizeMode="cover"
               />
             </View>
+
             {/* Overlay component */}
+            <View
+              style={{
+                width: '100%',
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                position: 'absolute',
+                top: 10,
+                // borderColor: 'red',
+                // borderWidth: 2,
+                zIndex: 999,
+              }}>
+              <View
+                style={{
+                  backgroundColor: '#46019F',
+                  width: 60,
+                  paddingVertical: 2,
+                  borderTopRightRadius: 5,
+                  borderBottomRightRadius: 5,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: 10,
+                    fontWeight: 600,
+                    paddingLeft: 2,
+                  }}>
+                  Featured
+                </Text>
+              </View>
+              <View
+                style={{
+                  marginRight: 8,
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  backgroundColor: '#7F7E7E80',
+                  width: 35,
+                  height: 35,
+                  borderRadius: 50,
+                  paddingHorizontal: 2,
+                }}>
+                <AntDesign name="heart" size={20} color="white" />
+              </View>
+            </View>
             <View
               style={{
                 width: '90%',

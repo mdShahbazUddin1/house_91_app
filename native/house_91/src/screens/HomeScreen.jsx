@@ -25,6 +25,8 @@ import LegalServices from '../components/LegalServices';
 import OurServices from '../components/OurServices';
 import ExploreCity from '../components/ExploreCity';
 import HandPicked from '../components/HandPicked';
+import BuyingCommercial from '../components/BuyingCommercial';
+import TopRated from '../components/TopRated';
 const HomeImage = require('../../assets/house-image.png');
 const HomeKey = require('../../assets/hand-key.png');
 
@@ -214,6 +216,12 @@ const HomeScreen = () => {
         </View>
         <View style={{marginTop: 0}}>
           <HandPicked />
+        </View>
+        <View style={{marginTop: 0}}>
+          <BuyingCommercial />
+        </View>
+        <View style={{marginTop: 0}}>
+          <TopRated />
         </View>
       </ScrollView>
     </SafeAreaView>
