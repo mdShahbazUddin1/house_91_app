@@ -12,6 +12,9 @@ import MainScreen from '../screens/MainScreen';
 import Register from '../screens/Register';
 import LoginScreen from '../screens/LoginScreen';
 import InsightsAndUtility from '../screens/InsightsAndUtility';
+import ContactUs from '../screens/ContactUs';
+import AboutUs from '../screens/AboutUs';
+import TrustedPartner from '../screens/TrustedPartner';
 
 const homeIcon = require('../../assets/home.png'); // Adjust the path to your image
 const savedIcon = require('../../assets/saved.png'); // Adjust the path to your image
@@ -51,7 +54,7 @@ function BottomTabs() {
       />
       <Tab.Screen
         name="Saved"
-        component={SavedScreen}
+        component={TrustedPartner}
         options={{
           tabBarIcon: ({color}) => (
             <Image
